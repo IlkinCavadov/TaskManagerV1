@@ -9,7 +9,7 @@ const UserContext = React.createContext();
 axios.defaults.withCredentials = true;
 
 export const UserContextProvider = ({ children }) => {
-  const serverUrl = "https://taskmanagerv1-nkfs.onrender.com";
+  const serverUrl = "https://taskmanagerv1-nkfs.onrender.com/api/v1";
 
   const router = useRouter();
 
