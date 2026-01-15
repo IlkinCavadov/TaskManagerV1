@@ -8,7 +8,7 @@ import toast from 'react-hot-toast';
 
 const TasksContext = createContext();
 
-const serverUrl = "https://taskmanagerv1-fxi2.onrender.com/api/v1";
+const serverUrl = "https://taskmanagerv1-nkfs.onrender.com/api/v1";
 
 export const TasksProvider = ({children}) => {
 
